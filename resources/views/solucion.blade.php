@@ -14,7 +14,7 @@
   <body>
 
     <div class="container">
-      <h1 class="text blue">La Hipotenusa de</h1>
+      <h1 class="text blue">La Hipotenusa del</h1>
       
       <h4> Cateto "B": <span class="text-primary">{{ $b }}</span> y Cateto "C": <span class="text-primary"> {{ $c }}</span> </h4>
        <h4>Es: <span class="text-primary">{{ $a }}</span></h4>
