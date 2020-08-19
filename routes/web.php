@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route :: get ( 'ecuacion' , 'CalculoController@ecuacion' );
+
+Route :: post ( 'solucion' , [ 'as' => 'ecuacion.solucion' , 'uses' => 'CalculoController@solucion' ]);
